@@ -298,7 +298,7 @@ Returns:
 Emitted when Chrome's accessibility support changes. This event fires when
 assistive technologies, such as screen readers, are enabled or disabled.
 See https://www.chromium.org/developers/design-documents/accessibility for more
-details.
+details.  
 
 ## Methods
 
@@ -923,6 +923,14 @@ Sets the application's [dock menu][dock-menu].
 * `image` [NativeImage](native-image.md)
 
 Sets the `image` associated with this dock icon.
+
+
+### `app.pasteboardWithName("pasteboard_name")` _macOS_
+
+* `pasteboard` [Pasteboard](pasteboard.md)
+
+returns a named pasteboard object
+
 
 [dock-menu]:https://developer.apple.com/library/mac/documentation/Carbon/Conceptual/customizing_docktile/concepts/dockconcepts.html#//apple_ref/doc/uid/TP30000986-CH2-TPXREF103
 [tasks]:http://msdn.microsoft.com/en-us/library/windows/desktop/dd378460(v=vs.85).aspx#tasks
